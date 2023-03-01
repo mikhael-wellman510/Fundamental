@@ -48,10 +48,13 @@ console.log(hasilSegitiga) // jawaban soal no 6
 // rumus hari
 // perbedaan tanggal dalam beberapa hari
 
-let kemarin = 10
-let sekarang = 20
+let kemarin = new Date("2023/04/27");
+let sekarang = new Date("2023/03/27");
 
-console.log(`kemarin tanggal ${kemarin} , lalu sekarang tanggal ${sekarang} , perbedaan nya adalah ${sekarang-kemarin} hari`)
+let waktu = kemarin.getTime() - sekarang.getTime();
+
+let hasil = waktu / (1000 * 3600 * 24);
+console.log(`${hasil} hari ` )
 
 
 // tulis kode untuk mengubah hari 
@@ -61,9 +64,16 @@ let hari = 500; // 500 - 365 - 120
 //dengan 1 tahun 365
 let tahun = parseInt(hari / 365 ); // 1 tahun
 let bulan = parseInt( 145 / 30 ); // 145 hari convert bulan = 4 bulan
-let hasilHari = hari - (365 + 120)  // hasil hari 
+let hasilHari = hari - (365 + 120) // hasil hari 
 
 
+// cara ke 2 
+let days = 400;
+let year = Math.floor(400/365);
+let month = Math.floor((days % 365)/ 30);
+let day =  Math.floor((days%365)%30)
+
+console.log(`${days}hari adalah ${year}tahun , ${month}bulan, ${day}hari`)
 
 
 
