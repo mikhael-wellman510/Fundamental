@@ -33,3 +33,6 @@ console.log(obj.func('tes'))
 console.log(typeof obj.prop1)
 console.log(typeof obj.func)
 
+
+ 
+
