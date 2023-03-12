@@ -116,7 +116,7 @@ let result = {
     Umur : {
         tertinggi : umurMax,
         terendah : umurMin,
-        Avarage : rataUmur.reduce((a,b)=> a+b) / data.length // 
+        Avarage : rataUmur.reduce((a,b)=> a + b ) / data.length
         
         
         
@@ -125,7 +125,7 @@ let result = {
     Score : {
         tertinggi : scoreMax,
         terendah : scoreMin,
-        Avarage : rataScore.reduce((a,b) => a + b) / data.length
+        Avarage : rataScore.reduce((a,b) => a + b ) / data.length
     }
   }
 //   console.log("Nilai tertinggi umur: " + umurMax);

@@ -21,7 +21,7 @@ let result = {
   Score : {
     Max : Math.max(...score),
     Min : Math.min(...score),
-    Average : score.reduce((a,b)=> a + b / score.length )
+    Average : score.reduce((a,b)=> a + b  ) / usia.length
   },
   Usia :{
     Max : Math.max(...usia),
