@@ -33,10 +33,17 @@ console.log(hasil12);
 
 let arr9 = [1, 2, 3, 4, 5, 6, 7];
 
-let tampung = 0;
+
+
+
+
+let tampung = 0;  // basic tampung
 
 for (let i = 0; i < arr9.length; i++) {
   tampung += arr9[i];
 }
 
 console.log(tampung);
+
+
+

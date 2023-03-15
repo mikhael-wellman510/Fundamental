@@ -6,9 +6,9 @@
 // console.log(recursif(1));
 
 function recur2(a, sum = 1) {
-  sum *= a;
+  sum *= a; //  4 * 5 , 20 * 3 , 2 * 60  
   if (a === 1) {
-    return sum;
+    return sum; // kembalikan ke recur
   }
   return recur2(a - 1, sum);
 }

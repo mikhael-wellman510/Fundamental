@@ -12,3 +12,5 @@ console.log(object1.berantem()); // jalankan method berantem
 object1.email = "gara@mail.com";
 
 console.log(object1.email);
+
+

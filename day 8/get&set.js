@@ -1,21 +1,4 @@
 
-
-// class Barang {
-//     constructor(nama , kelas){
-//         this.nama = nama
-//         this.kelas = kelas
-//     }
-
-//     detail(){
-//         return `nama saya ${this.nama}`
-//     }
-// }
-
-// const tes = new Barang('mikhael' , 'multimedia')
-
-// console.log(tes.detail())
-
-
 let user = { 
     namaDepan : 'cuk' ,
     namaBelakang : 'ndas' ,
